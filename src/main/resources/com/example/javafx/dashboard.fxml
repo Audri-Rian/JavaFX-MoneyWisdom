@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox fx:id="root" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1022.0" prefWidth="1920.0" fx:controller="com.example.javafx.HelloController" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <VBox prefHeight="1024.0" prefWidth="326.0">
+      <AnchorPane prefHeight="1084.0" prefWidth="326.0" style="-fx-background-color: #184977;" styleClass="style.css">
+         <ImageView fitHeight="68.0" fitWidth="76.0" layoutX="12.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/image.png" />
+         </ImageView>
+         <Text fill="WHITE" layoutX="93.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Money Wisdom">
+            <font>
+               <Font size="32.0" />
+            </font>
+         </Text>
+         <Pane layoutX="13.0" layoutY="20.0" prefHeight="72.0" prefWidth="72.0" />
+         <Button id="button" layoutY="116.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="326.0" style="-fx-background-color: #184977;" stylesheets="@style.css" textFill="WHITE">
+            <font>
+               <Font size="20.0" />
+            </font>
+            <styleClass>
+               <String fx:value="button" />
+               <String fx:value="button" />
+            </styleClass>
+         </Button>
+         <Button layoutY="173.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="326.0" style="-fx-background-color: #184977;" styleClass="button" textFill="WHITE"
+                 fx:id="btnSubmit" onAction="#handleSubmitAction">
+
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Button>
+         <Button layoutY="230.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="326.0" style="-fx-background-color: #184977;" styleClass="button" textFill="WHITE">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Button>
+         <Button layoutY="287.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="326.0" style="-fx-background-color: #184977;" styleClass="button" textFill="WHITE">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Button>
+         <Button layoutY="344.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="326.0" style="-fx-background-color: #184977;" textFill="WHITE">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Button>
+         <Button layoutY="401.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="326.0" style="-fx-background-color: #184977;" textFill="WHITE">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Button>
+         <Button layoutY="457.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="326.0" style="-fx-background-color: #184977;" textFill="WHITE">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Button>
+         <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="33.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/1.png" />
+         </ImageView>
+         <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="32.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/2.png" />
+         </ImageView>
+         <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="31.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/3.png" />
+         </ImageView>
+         <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="32.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/4.png" />
+         </ImageView>
+         <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="28.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/5.png" />
+         </ImageView>
+         <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="32.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/6.png" />
+         </ImageView>
+         <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="31.0" layoutY="465.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/7.png" />
+         </ImageView>
+         <Text fill="WHITE" layoutX="96.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="96.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transações Bancárias">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="97.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vendas">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="97.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fluxo de Caixa">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="96.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Despesas">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="95.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Funcionários">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="93.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Relátorios">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+      </AnchorPane>
+   </VBox>
+   <Pane prefHeight="994.0" prefWidth="1595.0">
+      <Pane layoutX="11.0" layoutY="14.0" prefHeight="68.0" prefWidth="1568.0">
+         <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="26.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/1-black.png" />
+         </ImageView>
+         <Text layoutX="72.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+            <font>
+               <Font size="24.0" />
+            </font>
+         </Text>
+         <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="1501.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/people-nigga.png" />
+         </ImageView>
+         <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="1429.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/config-black.png" />
+         </ImageView>
+         <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="1354.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/ponteiro-black.png" />
+         </ImageView>
+      </Pane>
+      <Pane layoutX="29.0" layoutY="90.0" prefHeight="172.0" prefWidth="1534.0" style="-fx-border-color: #B8AEAE; -fx-border-radius: 10;">
+         <Text fill="#868686" layoutX="38.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bom dia,">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Text layoutX="39.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Audri Rian!">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Pane layoutX="36.0" layoutY="89.0" prefHeight="50.0" prefWidth="188.0" style="-fx-border-color: #B8AEAE; -fx-border-radius: 10;">
+            <Text fill="#b8aeae" layoutX="54.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Receita mensal" />
+            <Text fill="#19a906" layoutX="36.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R$7000,00" wrappingWidth="115.66407692432404">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </Pane>
+         <Pane layoutX="245.0" layoutY="89.0" prefHeight="50.0" prefWidth="188.0" style="-fx-border-color: #B8AEAE; -fx-border-radius: 10;">
+            <Text fill="#b8aeae" layoutX="51.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Despesa mensal" />
+            <Text fill="#cc0808" layoutX="42.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R$5000,00" wrappingWidth="115.66407692432404">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </Pane>
+         <Pane layoutX="450.0" layoutY="89.0" prefHeight="50.0" prefWidth="188.0" style="-fx-border-color: #B8AEAE; -fx-border-radius: 10;">
+            <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="@imagens/black-7.png" />
+            </ImageView>
+            <Text layoutX="71.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Relatório">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+         </Pane>
+         <Pane layoutX="1258.0" layoutY="34.0" prefHeight="91.0" prefWidth="65.0" style="-fx-border-color: #B8AEAE; -fx-border-radius: 10;">
+            <Text layoutX="9.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Receita">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Line endX="25.3333740234375" layoutX="31.0" layoutY="45.0" startX="-19.3333740234375" stroke="#19a906" strokeMiterLimit="15.0" strokeWidth="2.0" />
+            <Line endX="-19.3333740234375" endY="36.0" layoutX="52.0" layoutY="28.0" startX="-19.3333740234375" stroke="#19a906" strokeMiterLimit="15.0" strokeWidth="2.0" />
+         </Pane>
+         <Pane layoutX="1379.0" layoutY="30.0" prefHeight="91.0" prefWidth="65.0" style="-fx-border-color: #B8AEAE; -fx-border-radius: 10;">
+            <Line endX="-16.6666259765625" endY="-1.52587890625E-5" layoutX="71.0" layoutY="58.0" startX="-57.3333740234375" startY="-1.52587890625E-5" stroke="#b8aeae" />
+            <Line endX="-100.0001220703125" endY="21.414260864257812" layoutX="134.0" layoutY="24.0" startX="-100.0001220703125" startY="-6.6666717529296875" stroke="#b8aeae" />
+            <Line endX="-91.2928466796875" endY="18.121353149414062" layoutX="126.0" layoutY="28.0" startX="-77.0" startY="3.3333282470703125" stroke="#b8aeae" />
+            <Line endX="-76.9998779296875" endY="33.82847595214844" layoutX="111.0" layoutY="13.0" startX="-90.6666259765625" startY="18.333328247070312" stroke="#b8aeae" />
+            <Text layoutX="11.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transf." wrappingWidth="47.7917166352272">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </Pane>
+         <Pane layoutX="1134.0" layoutY="35.0" prefHeight="91.0" prefWidth="65.0" style="-fx-border-color: #B8AEAE; -fx-border-radius: 10;">
+            <Line endX="25.3333740234375" layoutX="30.0" layoutY="46.0" startX="-19.3333740234375" stroke="#cc0808" strokeMiterLimit="15.0" strokeWidth="2.0" />
+            <Text layoutX="6.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Despesa">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </Pane>
+      </Pane>
+      <Pane layoutX="33.0" layoutY="292.0" prefHeight="356.0" prefWidth="546.0" style="-fx-border-color: #B8AEAE;">
+         <Text layoutX="27.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LUCROS E PERDAS">
+            <font>
+               <Font size="30.0" />
+            </font>
+         </Text>
+         <Text layoutX="404.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Últimos 30 dias">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <ImageView fitHeight="29.0" fitWidth="32.0" layoutX="499.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/Seta-Black.png" />
+         </ImageView>
+         <Text layoutX="33.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- R$ 123">
+            <font>
+               <Font size="23.0" />
+            </font>
+         </Text>
+         <Text fill="#b8aeae" layoutX="33.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lucro Líquido - últimos 30 dias" />
+         <Text layoutX="36.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R$ 0">
+            <font>
+               <Font size="23.0" />
+            </font>
+         </Text>
+         <Text fill="#b8aeae" layoutX="39.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Receita" />
+         <Text layoutX="27.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R$4654">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Text>
+         <Pane layoutX="175.0" layoutY="230.0" prefHeight="50.0" prefWidth="356.0" style="-fx-background-color: #5853ED;" />
+      </Pane>
+      <Pane layoutX="606.0" layoutY="292.0" prefHeight="355.0" prefWidth="543.0" style="-fx-border-color: #B8AEAE;">
+         <Text layoutX="25.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Despesas">
+            <font>
+               <Font size="30.0" />
+            </font>
+         </Text>
+         <Text layoutX="438.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Este mês">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <ImageView fitHeight="29.0" fitWidth="32.0" layoutX="500.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@imagens/Seta-Black.png" />
+         </ImageView>
+         <Text layoutX="43.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- R$ 123">
+            <font>
+               <Font size="23.0" />
+            </font>
+         </Text>
+         <Text fill="#b8aeae" layoutX="43.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Este Mês" />
+         <Circle fill="#397678" layoutX="166.0" layoutY="247.0" radius="100.0" stroke="#397678" strokeType="INSIDE" />
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#397678" height="28.0" layoutX="288.0" layoutY="201.0" stroke="#397678" strokeType="INSIDE" width="28.0" />
+         <Text layoutX="331.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- R$ 123">
+            <font>
+               <Font size="23.0" />
+            </font>
+         </Text>
+         <Text fill="#b8aeae" layoutX="341.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Suprimentos e ..." />
+         <Circle fill="WHITE" layoutX="166.0" layoutY="247.0" radius="70.0" stroke="WHITE" strokeType="INSIDE" />
+      </Pane>
+      <Pane layoutX="1177.0" layoutY="293.0" prefHeight="709.0" prefWidth="386.0" style="-fx-border-color: #B8AEAE;" />
+      <Pane layoutX="606.0" layoutY="671.0" prefHeight="331.0" prefWidth="542.0" style="-fx-border-color: #B8AEAE;" />
+      <Pane layoutX="33.0" layoutY="670.0" prefHeight="332.0" prefWidth="547.0" style="-fx-border-color: #B8AEAE;" />
+   </Pane>
+</HBox>

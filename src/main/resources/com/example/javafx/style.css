@@ -1,3 +1,7 @@
-#anchor-pane-blue {
+.button{
     -fx-background-color: #184977;
+}
+
+.button:hover{
+    -fx-background-color: #14469C;
 }
